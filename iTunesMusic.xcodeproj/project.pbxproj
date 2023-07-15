@@ -7,29 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1718E7429D9CA9A00CFA3C6 /* MusicDataEntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1718E7329D9CA9A00CFA3C6 /* MusicDataEntityMapper.swift */; };
-		E182954C29DCC22D00F1D5B9 /* HomeEntityModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182954B29DCC22D00F1D5B9 /* HomeEntityModelMapper.swift */; };
-		E182955429DCCBA900F1D5B9 /* MusicRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182955329DCCBA900F1D5B9 /* MusicRepository.swift */; };
 		E1DC4F3529C61D3D00D2D909 /* iTunesMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F3429C61D3D00D2D909 /* iTunesMusicApp.swift */; };
-		E1DC4F3729C61D3D00D2D909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F3629C61D3D00D2D909 /* ContentView.swift */; };
 		E1DC4F3929C61D4200D2D909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DC4F3829C61D4200D2D909 /* Assets.xcassets */; };
 		E1DC4F3C29C61D4200D2D909 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DC4F3B29C61D4200D2D909 /* Preview Assets.xcassets */; };
 		E1DC4F4629C61D4400D2D909 /* iTunesMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F4529C61D4400D2D909 /* iTunesMusicTests.swift */; };
 		E1DC4F5029C61D4400D2D909 /* iTunesMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F4F29C61D4400D2D909 /* iTunesMusicUITests.swift */; };
 		E1DC4F5229C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F5129C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift */; };
-		E1DC4F6029C623FD00D2D909 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F5F29C623FD00D2D909 /* RemoteDataSource.swift */; };
-		E1DC4F6429C6265600D2D909 /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F6329C6265600D2D909 /* LocalDataSource.swift */; };
-		E1DC4F6929C6280F00D2D909 /* MusicEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F6829C6280F00D2D909 /* MusicEntity.swift */; };
-		E1DC4F6E29C6293F00D2D909 /* TypeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F6D29C6293F00D2D909 /* TypeEntity.swift */; };
-		E1DC4F7029C67B5B00D2D909 /* MusicDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F6F29C67B5B00D2D909 /* MusicDataResponse.swift */; };
-		E1DC4F7229C67EC800D2D909 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7129C67EC800D2D909 /* MusicData.swift */; };
-		E1DC4F7729C685DA00D2D909 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7629C685DA00D2D909 /* NetworkClient.swift */; };
-		E1DC4F7929C68DAC00D2D909 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7829C68DAC00D2D909 /* NetworkError.swift */; };
-		E1DC4F7B29C68E2400D2D909 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7A29C68E2400D2D909 /* NetworkRequest.swift */; };
-		E1DC4F7D29C68E9100D2D909 /* URLSession+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7C29C68E9100D2D909 /* URLSession+Protocol.swift */; };
-		E1DC4F7F29C68F8500D2D909 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F7E29C68F8500D2D909 /* NetworkResponse.swift */; };
-		E1DC4F8129C6903300D2D909 /* ResponseDecoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F8029C6903300D2D909 /* ResponseDecoderProtocol.swift */; };
-		E1F6D93E29CFDEEC00AAECDC /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D93D29CFDEEC00AAECDC /* HomeUseCase.swift */; };
 		E1F6D94029CFDF0F00AAECDC /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */; };
 		E1F6D94229CFDF2F00AAECDC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D94129CFDF2F00AAECDC /* HomeScreen.swift */; };
 		E1F6D94429CFDF6600AAECDC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D94329CFDF6600AAECDC /* HomeModel.swift */; };
@@ -53,12 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1718E7329D9CA9A00CFA3C6 /* MusicDataEntityMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDataEntityMapper.swift; sourceTree = "<group>"; };
-		E182954B29DCC22D00F1D5B9 /* HomeEntityModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntityModelMapper.swift; sourceTree = "<group>"; };
-		E182955329DCCBA900F1D5B9 /* MusicRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRepository.swift; sourceTree = "<group>"; };
 		E1DC4F3129C61D3D00D2D909 /* iTunesMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DC4F3429C61D3D00D2D909 /* iTunesMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicApp.swift; sourceTree = "<group>"; };
-		E1DC4F3629C61D3D00D2D909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1DC4F3829C61D4200D2D909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1DC4F3B29C61D4200D2D909 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1DC4F4129C61D4400D2D909 /* iTunesMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,19 +45,6 @@
 		E1DC4F4B29C61D4400D2D909 /* iTunesMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DC4F4F29C61D4400D2D909 /* iTunesMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicUITests.swift; sourceTree = "<group>"; };
 		E1DC4F5129C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E1DC4F5F29C623FD00D2D909 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
-		E1DC4F6329C6265600D2D909 /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
-		E1DC4F6829C6280F00D2D909 /* MusicEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicEntity.swift; sourceTree = "<group>"; };
-		E1DC4F6D29C6293F00D2D909 /* TypeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEntity.swift; sourceTree = "<group>"; };
-		E1DC4F6F29C67B5B00D2D909 /* MusicDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDataResponse.swift; sourceTree = "<group>"; };
-		E1DC4F7129C67EC800D2D909 /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
-		E1DC4F7629C685DA00D2D909 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
-		E1DC4F7829C68DAC00D2D909 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		E1DC4F7A29C68E2400D2D909 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
-		E1DC4F7C29C68E9100D2D909 /* URLSession+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Protocol.swift"; sourceTree = "<group>"; };
-		E1DC4F7E29C68F8500D2D909 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
-		E1DC4F8029C6903300D2D909 /* ResponseDecoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDecoderProtocol.swift; sourceTree = "<group>"; };
-		E1F6D93D29CFDEEC00AAECDC /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
 		E1F6D94129CFDF2F00AAECDC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E1F6D94329CFDF6600AAECDC /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
@@ -117,22 +83,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		E182954D29DCC62000F1D5B9 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				E1718E7329D9CA9A00CFA3C6 /* MusicDataEntityMapper.swift */,
-			);
-			path = Mapper;
-			sourceTree = "<group>";
-		};
-		E182954F29DCC93700F1D5B9 /* Mapper */ = {
-			isa = PBXGroup;
-			children = (
-				E182954B29DCC22D00F1D5B9 /* HomeEntityModelMapper.swift */,
-			);
-			path = Mapper;
-			sourceTree = "<group>";
-		};
 		E182955029DCC96900F1D5B9 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,14 +98,6 @@
 				E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		E182955229DCCB6F00F1D5B9 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-				E182955329DCCBA900F1D5B9 /* MusicRepository.swift */,
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		E1DC4F2829C61D3D00D2D909 = {
@@ -181,12 +123,8 @@
 		E1DC4F3329C61D3D00D2D909 /* iTunesMusic */ = {
 			isa = PBXGroup;
 			children = (
-				E1DC4F7529C685C300D2D909 /* Networking */,
-				E1DC4F5E29C623CA00D2D909 /* Domain */,
 				E1F6D93C29CFDEC500AAECDC /* Feature */,
-				E182955229DCCB6F00F1D5B9 /* Repository */,
 				E1DC4F3429C61D3D00D2D909 /* iTunesMusicApp.swift */,
-				E1DC4F3629C61D3D00D2D909 /* ContentView.swift */,
 				E1DC4F3829C61D4200D2D909 /* Assets.xcassets */,
 				E1DC4F3A29C61D4200D2D909 /* Preview Content */,
 			);
@@ -218,56 +156,11 @@
 			path = iTunesMusicUITests;
 			sourceTree = "<group>";
 		};
-		E1DC4F5E29C623CA00D2D909 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				E1DC4F6A29C6281600D2D909 /* Data */,
-				E1DC4F6729C627F700D2D909 /* Entity */,
-				E1DC4F5F29C623FD00D2D909 /* RemoteDataSource.swift */,
-				E1DC4F6329C6265600D2D909 /* LocalDataSource.swift */,
-				E182954D29DCC62000F1D5B9 /* Mapper */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		E1DC4F6729C627F700D2D909 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-				E1DC4F6829C6280F00D2D909 /* MusicEntity.swift */,
-				E1DC4F6D29C6293F00D2D909 /* TypeEntity.swift */,
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		E1DC4F6A29C6281600D2D909 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				E1DC4F7129C67EC800D2D909 /* MusicData.swift */,
-				E1DC4F6F29C67B5B00D2D909 /* MusicDataResponse.swift */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		E1DC4F7529C685C300D2D909 /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				E1DC4F7629C685DA00D2D909 /* NetworkClient.swift */,
-				E1DC4F7829C68DAC00D2D909 /* NetworkError.swift */,
-				E1DC4F7A29C68E2400D2D909 /* NetworkRequest.swift */,
-				E1DC4F7E29C68F8500D2D909 /* NetworkResponse.swift */,
-				E1DC4F8029C6903300D2D909 /* ResponseDecoderProtocol.swift */,
-				E1DC4F7C29C68E9100D2D909 /* URLSession+Protocol.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		E1F6D93C29CFDEC500AAECDC /* Feature */ = {
 			isa = PBXGroup;
 			children = (
 				E182954A29DCC19D00F1D5B9 /* Model */,
 				E182955029DCC96900F1D5B9 /* Presentation */,
-				E182954F29DCC93700F1D5B9 /* Mapper */,
-				E1F6D93D29CFDEEC00AAECDC /* HomeUseCase.swift */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -402,27 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1DC4F7D29C68E9100D2D909 /* URLSession+Protocol.swift in Sources */,
-				E1DC4F7B29C68E2400D2D909 /* NetworkRequest.swift in Sources */,
-				E1DC4F6929C6280F00D2D909 /* MusicEntity.swift in Sources */,
-				E1718E7429D9CA9A00CFA3C6 /* MusicDataEntityMapper.swift in Sources */,
-				E1DC4F3729C61D3D00D2D909 /* ContentView.swift in Sources */,
-				E1F6D93E29CFDEEC00AAECDC /* HomeUseCase.swift in Sources */,
-				E1DC4F8129C6903300D2D909 /* ResponseDecoderProtocol.swift in Sources */,
-				E1DC4F6E29C6293F00D2D909 /* TypeEntity.swift in Sources */,
-				E1DC4F6029C623FD00D2D909 /* RemoteDataSource.swift in Sources */,
 				E1F6D94029CFDF0F00AAECDC /* HomeScreenViewModel.swift in Sources */,
-				E1DC4F7029C67B5B00D2D909 /* MusicDataResponse.swift in Sources */,
-				E182955429DCCBA900F1D5B9 /* MusicRepository.swift in Sources */,
-				E1DC4F7229C67EC800D2D909 /* MusicData.swift in Sources */,
-				E1DC4F7F29C68F8500D2D909 /* NetworkResponse.swift in Sources */,
 				E1F6D94229CFDF2F00AAECDC /* HomeScreen.swift in Sources */,
-				E1DC4F6429C6265600D2D909 /* LocalDataSource.swift in Sources */,
 				E1F6D94429CFDF6600AAECDC /* HomeModel.swift in Sources */,
-				E1DC4F7929C68DAC00D2D909 /* NetworkError.swift in Sources */,
-				E182954C29DCC22D00F1D5B9 /* HomeEntityModelMapper.swift in Sources */,
 				E1DC4F3529C61D3D00D2D909 /* iTunesMusicApp.swift in Sources */,
-				E1DC4F7729C685DA00D2D909 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
