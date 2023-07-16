@@ -1,34 +1,22 @@
 import Foundation
 
-final class HomeScreenModel: ObservableObject {
-  let artistId: Int
-  let artistName: String
-  let primaryGenreName: String
-  let artist
-  let country: String
-  
-  init(
-    artistId: Int,
-    artistName: String,
-    primaryGenreName: String,
-    country: String,
-    isStreamable: Bool
-  ) {
-    self.artistName = artistName
-    self.primaryGenreName = primaryGenreName
-    self.country = country
-    self.isStreamable = isStreamable
-  }
-}
+final class HomeScreenViewModel: ObservableObject {
+  @Published var items: [HomeScreenItem]
 
-extension HomeScreenModel {
-  var mock: HomeScreenModel {
-    HomeScreenModel(
-      artistId: 1,
-      artistName: "Kenny G",
-      primaryGenreName: "Blues",
-      country: "USA",
-      isStreamable: false
-    )
+  init(items: [HomeScreenItem]) {
+    self.items = items
+  }
+
+  func onAppear() {
+    items = getItems()
+  }
+
+  func getItems() -> [HomeScreenItem] {
+    return [
+      HomeScreenItem(artistId: "1", artistName: "Abby K", artworkUrl: "X", primaryGenreName: "Blues", country: "USA"),
+      HomeScreenItem(artistId: "2", artistName: "Sumaru", artworkUrl: "X", primaryGenreName: "Rock", country: "Finland"),
+      HomeScreenItem(artistId: "3", artistName: "Oaum", artworkUrl: "X", primaryGenreName: "Electronic", country: "Canada"),
+      HomeScreenItem(artistId: "4", artistName: "Banshees", artworkUrl: "X", primaryGenreName: "Folk", country: "UK"),
+    ]
   }
 }

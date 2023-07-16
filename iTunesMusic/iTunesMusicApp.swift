@@ -11,7 +11,7 @@ import SwiftUI
 struct iTunesMusicApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView(viewModel: HomeScreenViewModel(items: []))
         }
     }
 }

@@ -1,13 +1,27 @@
 import Foundation
 
-public struct HomeModel: Equatable {
-  let kind: String
+struct HomeScreenItem: Identifiable {
+  let id: UUID = UUID()
   let artistId: String
   let artistName: String
-  let previewUrl: String
-  let artistViewUrl: String
+  let track: String
   let artworkUrl: String
   let primaryGenreName: String
   let country: String
-  let isStreamable: Bool
+  
+  init(
+    artistId: String,
+    artistName: String,
+    track: String = "Track name",
+    artworkUrl: String,
+    primaryGenreName: String,
+    country: String
+  ) {
+    self.artistId = artistId
+    self.artistName = artistName
+    self.track = track
+    self.artworkUrl = artworkUrl
+    self.primaryGenreName = primaryGenreName
+    self.country = country
+  }
 }

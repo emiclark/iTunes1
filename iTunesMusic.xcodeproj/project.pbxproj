@@ -14,7 +14,7 @@
 		E1DC4F5029C61D4400D2D909 /* iTunesMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F4F29C61D4400D2D909 /* iTunesMusicUITests.swift */; };
 		E1DC4F5229C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DC4F5129C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift */; };
 		E1F6D94029CFDF0F00AAECDC /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */; };
-		E1F6D94229CFDF2F00AAECDC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D94129CFDF2F00AAECDC /* HomeScreen.swift */; };
+		E1F6D94229CFDF2F00AAECDC /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D94129CFDF2F00AAECDC /* HomeScreenView.swift */; };
 		E1F6D94429CFDF6600AAECDC /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6D94329CFDF6600AAECDC /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +46,7 @@
 		E1DC4F4F29C61D4400D2D909 /* iTunesMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicUITests.swift; sourceTree = "<group>"; };
 		E1DC4F5129C61D4400D2D909 /* iTunesMusicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesMusicUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
-		E1F6D94129CFDF2F00AAECDC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E1F6D94129CFDF2F00AAECDC /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		E1F6D94329CFDF6600AAECDC /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +94,7 @@
 		E182955129DCC99200F1D5B9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E1F6D94129CFDF2F00AAECDC /* HomeScreen.swift */,
+				E1F6D94129CFDF2F00AAECDC /* HomeScreenView.swift */,
 				E1F6D93F29CFDF0F00AAECDC /* HomeScreenViewModel.swift */,
 			);
 			path = Home;
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1F6D94029CFDF0F00AAECDC /* HomeScreenViewModel.swift in Sources */,
-				E1F6D94229CFDF2F00AAECDC /* HomeScreen.swift in Sources */,
+				E1F6D94229CFDF2F00AAECDC /* HomeScreenView.swift in Sources */,
 				E1F6D94429CFDF6600AAECDC /* HomeModel.swift in Sources */,
 				E1DC4F3529C61D3D00D2D909 /* iTunesMusicApp.swift in Sources */,
 			);
