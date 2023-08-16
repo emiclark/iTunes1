@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C329AB2A-46D9-4986-AB8E-5A5FBC3EFC2B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B82E2633-ACB5-4D8C-AD26-A680D5D85AD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iTunesMusic/Domain/DataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "DataService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B82E2633-ACB5-4D8C-AD26-A680D5D85AD8 - ccb79654a8e13962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static iTunesMusic.DataService.fetchGist(completion: (Swift.Result&lt;Swift.Array&lt;iTunesMusic.Gist&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iTunesMusic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/clemik/Projects/meez/iTunes/iTunes1/iTunesMusic/Domain/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1339">
+               </Location>
+               <Location
+                  uuid = "B82E2633-ACB5-4D8C-AD26-A680D5D85AD8 - e56c17305f13e2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static iTunesMusic.DataService.fetchGist(completion: (Swift.Result&lt;Swift.Array&lt;iTunesMusic.Gist&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iTunesMusic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/clemik/Projects/meez/iTunes/iTunes1/iTunesMusic/Domain/DataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "233">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C58A4B5-C55B-4607-8F3C-0A8CD71204ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iTunesMusic/Feature/Presentation/Home/HomeScreenViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "HomeScreenViewModel"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
